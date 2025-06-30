@@ -76,7 +76,7 @@ src/
 
 ## 📝 License
 
-[MIT](LICENSE) © Dinesh Veer
+[MIT](../LICENSE) © Dinesh Veer
 
 ```
 
