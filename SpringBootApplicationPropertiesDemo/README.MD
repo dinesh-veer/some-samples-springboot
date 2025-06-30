@@ -79,8 +79,3 @@ src/
 [MIT](../LICENSE) © Dinesh Veer
 
 ```
-
----
-
-Let me know if you'd like this version preformatted for GitHub, zipped for download, or committed into your repository.
-```
