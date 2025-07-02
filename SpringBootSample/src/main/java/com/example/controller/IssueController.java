@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.example.entity.IssueReport;
 
 @Controller
-public class IssuController {
+public class IssueController {
 
 	@GetMapping("/issueReport")
 	public String getReports(Model model) {
