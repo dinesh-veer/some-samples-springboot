@@ -154,7 +154,7 @@ For questions, feedback, or collaboration:
 
 **Dinesh Veer**
 
-📧 Email: [dveer123@hotmail.com](mailto:dveer123@example.com)
+📧 Email: [dveer123@hotmail.com](mailto:dveer123@hotmail.com)
 
 🔗 GitHub: [@dinesh-veer](https://github.com/dinesh-veer)
 
