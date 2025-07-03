@@ -2,10 +2,32 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Issue Report list</title>
 </head>
 <body>
 issue Report list
+<h1>Submitted Issues</h1>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Email</th>
+        <th>URL</th>
+        <th>Description</th>
+        <th>Private</th>
+        <th>Receive Updates</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="issue : ${issues}">
+        <td th:text="${issue.email}">Email</td>
+        <td th:text="${issue.url}">URL</td>
+        <td th:text="${issue.description}">Description</td>
+        <td th:text="${issue.private}">Private</td>
+        <td th:text="${issue.receiveUpdates}">Updates</td>
+    </tr>
+    </tbody>
+</table>
 
+<p><a href="/issueReport">Submit another issue</a></p>
 </body>
 </html>

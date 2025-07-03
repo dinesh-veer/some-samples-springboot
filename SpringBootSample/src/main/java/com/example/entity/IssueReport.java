@@ -10,10 +10,19 @@ public class IssueReport {
 	@GeneratedValue(strategy= GenerationType.AUTO)
 	private long id;
 	private String name;
+
 	private String email;
+	private String description;
 	
 	public IssueReport() {}
 
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
 	public long getId() {
 		return id;
 	}
