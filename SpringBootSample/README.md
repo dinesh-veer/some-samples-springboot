@@ -136,3 +136,26 @@ spring.thymeleaf.cache=false
 
 This project is licensed under the [MIT License](../LICENSE).
 © Dinesh Veer
+
+Here’s the updated bottom section of your `README.md`, now including a **Contact** section with a placeholder you can customize:
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](../LICENSE).
+© Dinesh Veer
+
+---
+
+## 📬 Contact
+
+For questions, feedback, or collaboration:
+
+**Dinesh Veer**
+
+📧 Email: [dveer123@hotmail.com](mailto:dveer123@example.com)
+
+🔗 GitHub: [@dinesh-veer](https://github.com/dinesh-veer)
+
+---
