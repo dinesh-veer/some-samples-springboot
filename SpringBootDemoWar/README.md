@@ -34,7 +34,7 @@ public class SpringBootDemoWarApplication extends SpringBootServletInitializer {
 
 ```bash
 mvn clean package
-# Deploy `target/war-with-initializer-0.0.1-SNAPSHOT.war` to Tomcat's /webapps
+# Deploy `target/war-with-initializer-0.0.1.war` to Tomcat's /webapps
 ```
 
 ---
