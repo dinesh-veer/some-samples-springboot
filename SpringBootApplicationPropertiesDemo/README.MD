@@ -1,5 +1,3 @@
-Absolutely! Below is the **complete copyable `README.md`** file. You can copy this content and paste it directly into your project's root directory as `README.md`.
-
 # Spring Boot Application Properties Demo
 
 This project demonstrates how to use external configuration in a Spring Boot application using `application.yml` and profile-specific settings.
