@@ -126,7 +126,84 @@ curl http://localhost:8081/
 
 ---
 
-If you want, I can help generate the controller method or update the README further!
+## ⚙️ How to Enable `/env` Endpoint
+
+By default, Actuator endpoints are limited. To expose `/env`, update your `application.properties`:
+
+```properties
+management.endpoints.web.exposure.include=env,health,info
+```
+
+Make sure Actuator dependency is added in your `pom.xml`:
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+```
+
+---
+
+## 🚀 Accessing `/env` Endpoint
+
+Once enabled, access the endpoint via:
+
+```
+GET http://localhost:8080/actuator/env
+```
+
+This will return JSON data structured like:
+
+```json
+{
+  "activeProfiles": [],
+  "propertySources": [
+    {
+      "name": "systemProperties",
+      "properties": {
+        "java.version": {
+          "value": "17"
+        },
+        "os.name": {
+          "value": "Linux"
+        }
+      }
+    },
+    {
+      "name": "applicationConfig: [classpath:/application.properties]",
+      "properties": {
+        "server.port": {
+          "value": "8080"
+        },
+        "spring.application.name": {
+          "value": "demo-app"
+        }
+      }
+    }
+  ]
+}
+```
+
+---
+
+## 🔐 Securing the `/env` Endpoint
+
+Because `/env` exposes sensitive configuration data, **it is recommended to secure this endpoint** in production:
+
+* Use Spring Security to restrict access
+* Enable HTTPS
+* Limit exposure using `management.endpoints.web.exposure.include`
+
+Example to restrict access in `application.properties`:
+
+```properties
+management.endpoints.web.exposure.include=health,info
+```
+
+Then selectively expose `/env` only for trusted environments or users.
+
+---
 
 ## 📘 Additional Notes
 
