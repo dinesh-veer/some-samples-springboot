@@ -3,3 +3,6 @@ server:
 spring:
     application:
       name: Simple Application name
+properties:
+  javaVersion: 17.0
+  springBootVersion: 3.5.3

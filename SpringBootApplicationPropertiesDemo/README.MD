@@ -33,7 +33,7 @@ cd some-samples-springboot/SpringBootApplicationPropertiesDemo
 mvn spring-boot:run
 ```
 
-This will use the base configuration and start the server on port `8080`.
+This will use the base configuration and start the server on port `8081`.
 
 ### Run with a Specific Profile
 
