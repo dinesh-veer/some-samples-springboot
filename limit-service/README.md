@@ -126,6 +126,11 @@ mvn test
 
 # Package the application
 mvn clean package
+
+#Run application
+mvn spring-boot:run -Dspring-boot.run.arguments="--server.port=8081"
+mvn spring-boot:run -Dspring-boot.run.arguments="--server.port=8082"
+
 ```
 ---
 ## 📄 License
@@ -140,6 +145,8 @@ This project is licensed under the [MIT License](../LICENSE).
 For questions, feedback, or collaboration:
 
 **Dinesh Veer**
+
+Feel free to raise issues or pull requests!
 
 📧 Email: [dveer123@hotmail.com](mailto:dveer123@hotmail.com)
 
