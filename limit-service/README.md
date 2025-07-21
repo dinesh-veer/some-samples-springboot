@@ -70,7 +70,7 @@ java -jar target/limit-service-0.0.1-SNAPSHOT.jar
 ## API Endpoint
 
 ```http
-GET /limits
+GET /limit
 ```
 
 #### Sample Response:
@@ -102,7 +102,8 @@ This service can also be configured to retrieve its properties from a Spring Clo
 Once registered with Eureka, you can access the service using its logical name (`limit-service`) from other microservices. For example:
 
 ```http
-http://limit-service/limits
+http://limit-service/limit
+http://limit-service/limitConfig
 ```
 
 This works only when using a service discovery-aware client (like Feign or RestTemplate with Ribbon).

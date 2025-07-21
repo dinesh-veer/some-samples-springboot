@@ -18,7 +18,7 @@ public class LimitServiceController {
 	@Autowired
 	private Configuration configuration;
 	
-	@GetMapping("/limits")  
+	@GetMapping("/limit")
 	public LimitConfiguration retriveLimits()
 	{  
 	return new LimitConfiguration(1000, 1);  
