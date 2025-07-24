@@ -159,5 +159,21 @@ Open issues or submit PRs to improve this sample project.
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for details.
+This project is licensed under the [MIT License](../LICENSE).
+© Dinesh Veer
 
+---
+
+## 📬 Contact
+
+For questions, feedback, or collaboration:
+
+**Dinesh Veer**
+
+Feel free to raise issues or pull requests!
+
+📧 Email: [dveer123@hotmail.com](mailto:dveer123@hotmail.com)
+
+🔗 GitHub: [@dinesh-veer](https://github.com/dinesh-veer)
+
+---
