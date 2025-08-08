@@ -119,14 +119,6 @@ No external config or properties. Everything is hardcoded:
 
 ## 📄 License
 
-📝 [MIT License](../../LICENSE)
-
----
-
-Would you like this saved as a downloadable file?
-
-## 📄 License
-
 This project is licensed under the [MIT License](../LICENSE).
 © Dinesh Veer
 
